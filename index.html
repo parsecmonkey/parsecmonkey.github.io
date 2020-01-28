@@ -1,99 +1,53 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <!--- "https://kit.fontawesome.com/f06fca7795.js"のサイトとリンクさせる --->
+    <script src="https://kit.fontawesome.com/f06fca7795.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <div class="header-right">
+          <a class="login" href="#">ログイン</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Progateはオンラインプログラミング学習サービスです。</p>
+        <p>初心者にもやさしいスライドとレッスンで、Webサービスを作りながらプログラミングを学んでいきましょう。</p>
+        <div class="btn-wrapper">
+          <!--- 共通のクラスbtnとそれぞれのクラス2つを持つ --->
+          <a href="#" class="btn signup">新規登録はこちら</a>
+          <p>or sign up with</p>
+          <a href="#" class="btn facebook">
+            <!--- fab fa-facebook-fでfacebookのアイコンを挿入(fontawesomeサイトから) --->
+            <span class="fab fa-facebook-f"></span>
+            Facebookで登録
+          </a>
+          <a href="#" class="btn twitter">
+            <span class="fab fa-twitter"></span>
+            Twitterで登録
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
 
-a {
-  text-decoration: none;
-}
+    </div>
+    <div class="message-wrapper">
 
-header {
-  height: 65px;
-  /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
-  background-color: rgba(34, 49, 52, 0.9);
-}
+    </div>
+    <footer>
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-.header-left {
-  /* floatでどちらに詰めるか設定 */
-  float: left;
-}
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.5sですべてのプロパティの変化時間が2.5秒に） */
-  transition: all 2.5s;
-}
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header-right a {
-  /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  /* display: block;でぼっく自然体をクリックできるように */
-  display: block;
-}
-
-.top-wrapper {
-  /* padding: 上 右 下 左; */
-  padding: 180px 0 100px 0;
-  /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
-  background-size: cover;
-  color: white;
-  /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
-  text-align: center;
-}
-.top-wrapper h1 {
-  /* opacityで透明度設定(0.0:透明,1.0:不透明) */
-  opacity: 0.7;
-  font-size: 45px;
-  /* letter-spacingで文字間隔設定 */
-  letter-spacing: 5px;
-}
-.top-wrapper p {
-  opacity: 0.7;
-}
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  /* autoで大きいブロックを中央に揃える(width必須) */
-  margin: 0 auto;
-}
-.btn-wrapper {
-  margin: 20px 0;
-}
-.btn-wrapper p {
-  margin: 10px 0;
-}
-.btn {
-  padding: 8px 24px;
-  color: white;
-  /* displayでインラインをブロック化し横に並べられるように */
-  display: inline-block;
-  opacity: 0.8;
-  /* border-radiusで丸みをつける */
-  border-radius: 4px;
-}
-/* :hoverでカーソルが上に乗ったときに作動 */
-.btn:hover {
-  opacity: 1.0;
-}
-.signup {
-  background-color: #239b76;
-}
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-.twitter {
-  background-color: #55acee;
-}
-.fab {
-  margin-right: 5px;
-}
+    </footer>
+  </body>
+</html>

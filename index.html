@@ -1,77 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Progate</title>
-    <!--- cssと連結 --->
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="header-logo">
-        Progate
-      </div>
-      <div class="header-list">
-        <!--- リスト作成 --->
-        <ul>
-          <!--- リスト要素 --->
-          <li>プログラミングとは</li>
-          <li>学べるレッスン</li>
-          <li>お問い合わせ</li>
-        </ul>
-      </div>
-    </div>
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
 
-    <div class="main">
-      <div class="copy-container">
-        <h1>HELLO WORLD<span>.</span></h1>
-        <h2>プログラミングの世界へようこそ</h2>
-      </div>
-      <div class="contents">
-        <h3>学べるレッスン</h3>
-        <div class="contents-item">
-          <!--- 画像を挿入 --->
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-          <p>HTML & CSS</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-          <p>PHP</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-          <p>Ruby</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-          <p>Swift</p>
-        </div>
-      </div>
-      <div class="contact-form">
-        <h3 class="section-title">お問い合わせ</h3>
-        <p>メールアドレス（必須）</p>
-        <!--- 1行のテキスト入力ボックス --->
-        <input type>
-        <p>お問い合わせ内容（必須）</p>
-        <!--- 複数行のテキスト入力ボックス --->
-        <textarea></textarea>
-        <p>※必須項目は必ずご入力ください</p>
-        <!--- 送信ボタン --->
-        <input class="contact-submit" type="submit" value="送信">
-      </div>
-    </div>
+a {
+  text-decoration: none;
+}
 
-    <div class="footer">
-      <div class="footer-logo">
-        Progate
-      </div>
-      <div class="footer-list">
-        <ul>
-          <li>会社概要</li>
-          <li>採用</li>
-          <li>お問い合わせ</li>
-        </ul>
-    </div>
+header {
+  height: 65px;
+  /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
+  background-color: rgba(34, 49, 52, 0.9);
+}
 
-  </body>
-</html>
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-left {
+  /* floatでどちらに詰めるか設定 */
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.5sですべてのプロパティの変化時間が2.5秒に） */
+  transition: all 2.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  /* display: block;でぼっく自然体をクリックできるように */
+  display: block;
+}
+
+.top-wrapper {
+  /* padding: 上 右 下 左; */
+  padding: 180px 0 100px 0;
+  /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
+  text-align: center;
+}
+.top-wrapper h1 {
+  /* opacityで透明度設定(0.0:透明,1.0:不透明) */
+  opacity: 0.7;
+  font-size: 45px;
+  /* letter-spacingで文字間隔設定 */
+  letter-spacing: 5px;
+}
+.top-wrapper p {
+  opacity: 0.7;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  /* autoで大きいブロックを中央に揃える(width必須) */
+  margin: 0 auto;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  /* displayでインラインをブロック化し横に並べられるように */
+  display: inline-block;
+  opacity: 0.8;
+  /* border-radiusで丸みをつける */
+  border-radius: 4px;
+}
+/* :hoverでカーソルが上に乗ったときに作動 */
+.btn:hover {
+  opacity: 1.0;
+}
+.signup {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.fab {
+  margin-right: 5px;
+}

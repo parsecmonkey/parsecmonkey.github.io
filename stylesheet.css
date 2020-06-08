@@ -11,6 +11,7 @@ a {
 header {
   height: 65px;
   width: 100%;
+  margin: 0;
   /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
   background-color: rgba(34, 49, 52, 0.9);
   /* fixedで要素の位置を固定 */
@@ -39,11 +40,11 @@ header {
 .header-left-txt {
   float: left;
 }
-.header-left-txt h4 {
+.header-left-txt a {
+  line-height: 65px;
   font-size: 20px;
   color: #b3aeb5;
-  line-height: 65px;
-　margin: 0 0 0 0;
+  display: block;
 }
 .header-right {
   padding-right: 10px;
@@ -150,7 +151,8 @@ footer {
     width: 100%;
     padding: 0 5px;
   }
-  .header-left-txt h4 {
+  .header-left-txt a {
+    line-height: 40px;
     font-size: 15px;
   }
   .header-right {

@@ -11,6 +11,11 @@ header {
   height: 65px;
   /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
   background-color: rgba(34, 49, 52, 0.9);
+  /* fixedで要素の位置を固定 */
+  position: fixed;
+  top: 0;
+  /* z-indexで要素の重なる順番を指定できる */
+  z-index: 10;
 }
 
 .logo {

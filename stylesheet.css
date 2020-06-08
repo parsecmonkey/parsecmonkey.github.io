@@ -73,6 +73,7 @@ header {
 .top-logo {
   width: 100px;
   height: 100px;
+  margin: 0 auto;
 }
 .top-wrapper p {
   opacity: 1.0;

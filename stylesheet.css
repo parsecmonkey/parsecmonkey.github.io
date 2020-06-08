@@ -85,7 +85,7 @@ header {
 .top-logo img {
   width: 340px;
   height: 340px;
-  padding: 0 0 100px 0;
+  margin-bottom: 100px;
 }
 .top-wrapper p {
   opacity: 1.0;

@@ -183,6 +183,9 @@ footer {
     height: 220px;
     padding: 0 0 0 0;
   }
+  .top-wrapper p {
+  　font-size: 15px;
+  }
   .container {
     width: 100%;
     padding: 0 7px;

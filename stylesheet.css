@@ -132,6 +132,9 @@ header {
 .list_square li {
   color: white;
 }
+.list_square a {
+  color: white;
+}
 footer p {
   color: #b3aeb5;
   font-size: 12px;

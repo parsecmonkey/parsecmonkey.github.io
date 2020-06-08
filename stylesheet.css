@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #669999;
 }
 
 a {
@@ -20,7 +21,7 @@ header {
 }
 
 .logo {
-  width: 124px;
+  width: 105px;
   margin-top: 5px;
 }
 .header-left {

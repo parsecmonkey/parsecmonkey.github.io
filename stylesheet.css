@@ -38,10 +38,10 @@ header {
 }
 .header-left-txt {
   float: left;
+  vertical-align : middle;
 }
 .header-left-txt p {
   font-size: 20px;
-  vertical-align : middle;
   color: #b3aeb5;
 }
 .header-right {

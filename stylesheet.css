@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-  width: 105px;
+  width: 95px;
   margin-top: 5px;
 }
 .header-container {
@@ -31,7 +31,6 @@ header {
   margin: 0 auto;
 }
 .header-left {
-  width: 1170px;
   /* floatでどちらに詰めるか設定 */
   float: left;
 }
@@ -72,7 +71,7 @@ header {
   letter-spacing: 5px;
 }
 .top-logo {
-  width: 280px;
+  width: 100px;
 }
 .top-wrapper p {
   opacity: 1.0;

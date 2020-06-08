@@ -39,6 +39,7 @@ header {
 }
 .header-left-txt {
   font-size: 20px;
+  line-height: 65px;
   color: #b3aeb5;
   float: left;
 }
@@ -149,7 +150,7 @@ footer {
     padding: 0 5px;
   }
   .header-left-txt {
-    padding: 0 0 7 0;
+    line-height: 40px;
     font-size: 15px;
   }
   .header-right {

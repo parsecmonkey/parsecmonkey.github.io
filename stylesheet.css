@@ -1,5 +1,4 @@
 body {
-  height: 2300px;
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
   background-color: #669999;
@@ -48,6 +47,7 @@ header {
 }
 
 .top-wrapper {
+  height: 1300px;
   /* padding: 上 右 下 左; */
   padding: 180px 0 100px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */

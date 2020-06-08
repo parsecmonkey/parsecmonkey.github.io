@@ -132,8 +132,8 @@ footer {
     height: 40px;
   }
   .logo {
-  width: 40px;
-    margin-top: 2px;
+  width: 70px;
+    margin-top: 4px;
   }
   .header-container {
     width: 100%;
@@ -147,8 +147,11 @@ footer {
     line-height: 40px;
     padding: 0 10px;
   }
-
-  
+	
+  .top-wrapper {
+    /* padding: 上 右 下 左; */
+    padding: 40px 0 50px 0;
+  }
   .top-wrapper h1 {
     font-size: 30px;
   }

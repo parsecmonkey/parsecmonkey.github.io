@@ -41,7 +41,7 @@ header {
 }
 .header-left-txt a {
   font-size: 20px;
-  line-height: 65px;
+  vertical-align : super;
   color: #b3aeb5;
 }
 .header-right {
@@ -151,7 +151,6 @@ footer {
   }
   .header-left-txt a {
     font-size: 15px;
-    line-height: 40px;
   }
   .header-right {
     padding-right: 5px;

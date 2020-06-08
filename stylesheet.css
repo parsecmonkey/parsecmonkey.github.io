@@ -38,11 +38,11 @@ header {
 }
 .header-left-txt {
   float: left;
+  color: #b3aeb5;
 }
 .header-left-txt a {
   font-size: 20px;
-  vertical-align : super;
-  color: #b3aeb5;
+  vertical-align : middle;
 }
 .header-right {
   padding-right: 10px;

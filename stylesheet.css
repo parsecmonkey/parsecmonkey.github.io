@@ -137,7 +137,7 @@ footer {
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 @media screen and ( max-width:479px )
 {
-	header {
+  header {
     height: 40px;
   }
   .logo {
@@ -149,6 +149,7 @@ footer {
     padding: 0 5px;
   }
   .header-left-txt {
+    padding: 0 0 7 0;
     font-size: 15px;
   }
   .header-right {

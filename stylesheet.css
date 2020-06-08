@@ -123,3 +123,69 @@ footer p {
 footer {
   padding-top: 30px;
 }
+
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+	header {
+    height: 40px;
+  }
+  .logo {
+  width: 40px;
+    margin-top: 2px;
+  }
+  .header-container {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .header-right {
+    padding-right: 5px;
+  }
+  .header-right a {
+    /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+  .top-logo img {
+    width: 220px;
+    height: 220px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 7px;
+    /* autoで大きいブロックを中央に揃える(width必須) */
+    margin: 0 auto;
+  }
+  .btn-wrapper {
+    margin: 10px 0;
+  }
+  .btn-wrapper p {
+    margin: 6px 0;
+  }
+  .btn {
+    padding: 4px 12px;
+  
+  }
+
+ 
+  .facebook {
+    margin-right: 5px;
+  }
+  .fab {
+    margin-right: 3px;
+  }
+
+  footer p {
+    font-size: 7px;
+  }
+  footer {
+    padding-top: 13px;
+  }
+
+}

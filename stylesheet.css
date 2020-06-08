@@ -24,15 +24,19 @@ header {
   width: 105px;
   margin-top: 5px;
 }
-.header-left {
+.header-container {
   width: 1170px;
   padding: 0 5px;
   /* autoで大きいブロックを中央に揃える(width必須) */
   margin: 0 auto;
+}
+.header-left {
+  width: 1170px;
   /* floatでどちらに詰めるか設定 */
   float: left;
 }
 .header-right {
+  padding-right: 10px;
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
   /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.5sですべてのプロパティの変化時間が2.5秒に） */

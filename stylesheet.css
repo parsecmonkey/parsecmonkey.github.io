@@ -70,7 +70,7 @@ header {
   /* letter-spacingで文字間隔設定 */
   letter-spacing: 5px;
 }
-.top-logo {
+.top-logo img {
   width: 100px;
   height: 100px;
 }

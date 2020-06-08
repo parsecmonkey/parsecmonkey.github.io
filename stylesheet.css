@@ -22,7 +22,6 @@ header {
 
 .logo {
   width: 95px;
-  margin-top: 5px;
 }
 .header-container {
   width: 1170px;
@@ -38,10 +37,12 @@ header {
   float: left;
 }
 .header-left-txt {
+  float: left;
+}
+.header-left-txt a {
   font-size: 20px;
   line-height: 65px;
   color: #b3aeb5;
-  float: left;
 }
 .header-right {
   padding-right: 10px;
@@ -143,15 +144,14 @@ footer {
   }
   .logo {
     width: 60px;
-    margin-top: 2px;
   }
   .header-container {
     width: 100%;
     padding: 0 5px;
   }
-  .header-left-txt {
-    line-height: 40px;
+  .header-left-txt a {
     font-size: 15px;
+    line-height: 40px;
   }
   .header-right {
     padding-right: 5px;

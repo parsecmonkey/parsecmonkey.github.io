@@ -25,8 +25,12 @@ header {
   margin-top: 5px;
 }
 .header-left {
+  width: 1170px;
+  padding: 0 5px;
+  /* autoで大きいブロックを中央に揃える(width必須) */
+  margin: 0 auto;
   /* floatでどちらに詰めるか設定 */
-  margin-right: auto;
+  float: left;
 }
 .header-right {
   float: right;

@@ -38,11 +38,11 @@ header {
 }
 .header-left-txt {
   float: left;
-  vertical-align : middle;
 }
-.header-left-txt p {
+.header-left-txt h4 {
   font-size: 20px;
   color: #b3aeb5;
+  line-height: 65px;
 }
 .header-right {
   padding-right: 10px;
@@ -149,7 +149,7 @@ footer {
     width: 100%;
     padding: 0 5px;
   }
-  .header-left-txt p {
+  .header-left-txt h4 {
     font-size: 15px;
   }
   .header-right {

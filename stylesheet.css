@@ -26,7 +26,7 @@ header {
 }
 .header-left {
   /* floatでどちらに詰めるか設定 */
-  float: left;
+  margin-right: auto;
 }
 .header-right {
   float: right;

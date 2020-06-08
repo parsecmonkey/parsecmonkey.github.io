@@ -89,7 +89,6 @@ header {
 }
 .top-wrapper p {
   opacity: 1.0;
-　font-size: 20px;
 }
 .container {
   width: 1170px;
@@ -182,9 +181,6 @@ footer {
     width: 220px;
     height: 220px;
     padding: 0 0 0 0;
-  }
-  .top-wrapper p {
-  　font-size: 15px;
   }
   .container {
     width: 100%;

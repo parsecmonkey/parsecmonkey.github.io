@@ -34,9 +34,13 @@ header {
   /* floatでどちらに詰めるか設定 */
   float: left;
 }
-.header-left p {
+.header-left-ico {
+  float: left;
+}
+.header-left-txt {
   font-size: 20px;
   padding: 15px 0 0 5px;
+  float: left;
 }
 .header-right {
   padding-right: 10px;

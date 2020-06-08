@@ -20,7 +20,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .header-left {
   /* floatでどちらに詰めるか設定 */
@@ -46,7 +46,7 @@ header {
 
 .top-wrapper {
   /* padding: 上 右 下 左; */
-  padding: 280px 0 100px 0;
+  padding: 180px 0 100px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
   background-color: #669999;
   color: black;

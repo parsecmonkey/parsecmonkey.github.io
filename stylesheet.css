@@ -46,10 +46,9 @@ header {
 
 .top-wrapper {
   /* padding: 上 右 下 左; */
-  padding: 180px 0 100px 0;
+  padding: 280px 0 100px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
   background-color: #669999;
-  background-size: cover;
   color: black;
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
   text-align: center;

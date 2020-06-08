@@ -44,6 +44,7 @@ header {
 }
 .header-right {
   padding-right: 10px;
+  float: right;
   background-color: rgba(255, 255, 255, 0.3);
   /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.5sですべてのプロパティの変化時間が2.5秒に） */
   transition: all 2.5s;

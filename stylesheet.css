@@ -9,6 +9,7 @@ a {
 
 header {
   height: 65px;
+  width: auto;
   /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
   background-color: rgba(34, 49, 52, 0.9);
   /* fixedで要素の位置を固定 */

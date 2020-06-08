@@ -71,6 +71,9 @@ header {
   /* letter-spacingで文字間隔設定 */
   letter-spacing: 5px;
 }
+.top-logo {
+  width: 280px;
+}
 .top-wrapper p {
   opacity: 1.0;
 }

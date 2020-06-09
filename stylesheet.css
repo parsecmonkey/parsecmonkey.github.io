@@ -22,7 +22,8 @@ header {
 }
 
 .logo {
-  width: 95px;
+  height: 55px;
+  margin: 5px 10px 0 0;
 }
 .header-container {
   width: 1170px;
@@ -49,10 +50,10 @@ header {
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
-  /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.5sですべてのプロパティの変化時間が2.5秒に） */
-  transition: all 2.5s;
 }
 .header-right:hover {
+  /* transitionでカーソルを乗せたとき、アニメーションをつけるように（all 2.0sですべてのプロパティの変化時間が2.5秒に） */
+  transition: all 2.0s;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .header-right a {
@@ -145,12 +146,14 @@ footer {
 {
   body {
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   header {
     height: 40px;
   }
   .logo {
-    width: 60px;
+    height: 30px;
+    margin: 5px 5px 0 0;
   }
   .header-container {
     width: 100%;
@@ -159,6 +162,9 @@ footer {
   .header-left-txt a {
     line-height: 40px;
     font-size: 15px;
+  }
+  .header-right {
+    margin-right: 10px;
   }
   .header-right a {
     /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */

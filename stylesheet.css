@@ -144,6 +144,9 @@ footer {
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 @media screen and ( max-width:479px )
 {
+  body {
+    box-sizing: border-box;
+  }
   header {
     height: 40px;
   }
@@ -180,7 +183,6 @@ footer {
   }
   .container {
     width: 100%;
-    padding: 0 7px;
     /* autoで大きいブロックを中央に揃える(width必須) */
     margin: 0 auto;
   }

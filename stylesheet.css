@@ -89,7 +89,6 @@ header {
 }
 .container {
   width: 1170px;
-  padding: 0 15px;
   /* autoで大きいブロックを中央に揃える(width必須) */
   margin: 0 auto;
 }

@@ -1,7 +1,7 @@
 $('.logo-on-off').each(function() {
 
   let img_off = $(this).attr('src');
-  let img_on = $(this).attr('src').replace('-icon', '-icon-eye');
+  let img_on = $(this).attr('src').replace('-icon', '-icon-ton');
 
   $(this).hover(
     function () {

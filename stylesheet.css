@@ -92,6 +92,10 @@ header {
   width: 1170px;
   /* autoで大きいブロックを中央に揃える(width必須) */
   margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 5;
 }
 .btn-wrapper {
   margin: 20px 0;

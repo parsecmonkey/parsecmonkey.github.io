@@ -159,9 +159,6 @@ footer {
     line-height: 40px;
     font-size: 15px;
   }
-  .header-right {
-    padding-right: 5px;
-  }
   .header-right a {
     /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */
     line-height: 40px;

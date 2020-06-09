@@ -64,65 +64,28 @@ header {
   display: block;
 }
 
-/*top wrapper*/
 .top-wrapper {
   height: 1300px;
   /* padding: 上 右 下 左; */
   padding: 160px 0 100px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
-  background-color: #669999;
   color: black;
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
   text-align: center;
 }
-.top-logo img {
-  width: 900px;
-  height: 900px;
-  position:  absolute;        /* 位置指定 */
-  top: -200px;                  /* 位置指定 */
-  left: -200px;
-  z-index: 0.5;
-  opacity: 0.1;
-}
-.top-txt h1 {
+.top-wrapper h1 {
   /* opacityで透明度設定(0.0:透明,1.0:不透明) */
   opacity: 1.0;
   font-size: 45px;
-  margin-block-end: 0.0em;
+  /* letter-spacingで文字間隔設定 */
+  letter-spacing: 5px;
 }
-.top-txt h2 {
-  font-size: 40px;
-  margin-block-start: 0.0em;
+.top-logo img {
+  width: 340px;
+  height: 340px;
 }
-.top-list {
-  width: 30%;
-  margin: 0 auto;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  background-color: white;
-}
-.top-list li {
-  list-style: none;
-  padding-bottom: 3px;
-}
-.act-list {
-  padding-inline-start: 0;
-}
-.act-list-item {
-  cursor: pointer;
-}
-.year {
-  font-size: 30px;
-}
-.act-list-item span {
-  font-size: 30px;
-  color: #b3aeb5;
-}
-.month {
-  font-size: 22px;
-  margin: 0 40px 15px 0;
-  display: none;
+.top-txt {
+  margin-top: 115px
 }
 .container {
   width: 1170px;
@@ -131,7 +94,7 @@ header {
   margin: 0 auto;
 }
 .btn-wrapper {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 .btn-wrapper p {
   margin: 10px 0;
@@ -205,37 +168,15 @@ footer {
     /* padding: 上 右 下 左; */
     padding: 10px 0 50px 0;
   }
-  .top-logo img {
-    width: 600px;
-    height: 600px;
-    position:  absolute;        /* 位置指定 */
-    top: -150px;                  /* 位置指定 */
-    left: -150px;
-    z-index: 0.5;
-    opacity: 0.1;
-  }
   .top-wrapper h1 {
     font-size: 30px;
   }
-  .top-txt h1 {
-    font-size: 30px;
+  .top-logo img {
+    width: 220px;
+    height: 220px;
   }
-  .top-txt h2 {
-    font-size: 25px;
-  }
-  .top-list {
-    width: 45%;
-  }
-  .year {
-    font-size: 23px;
-  }
-  .act-list-item span {
-    font-size: 20px;
-  }
-  .month {
-    font-size: 17px;
-    margin: 0 40px 12px 0;
-    display: none;
+  .top-txt {
+    margin-top: 0;
   }
   .container {
     width: 100%;

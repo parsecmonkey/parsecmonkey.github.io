@@ -27,7 +27,7 @@ header {
   margin: 5px 10px 0 0;
 }
 .header-container {
-  width: 1170px;
+  width: 100%;
   padding: 0 5px;
   /* autoで大きいブロックを中央に揃える(width必須) */
   margin: 0 auto;
@@ -106,7 +106,7 @@ header {
   margin-top: 115px
 }
 .container {
-  width: 1170px;
+  width: 100%;
   /* autoで大きいブロックを中央に揃える(width必須) */
   margin: 0 auto;
   position: relative;

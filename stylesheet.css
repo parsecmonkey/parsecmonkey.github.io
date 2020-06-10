@@ -14,6 +14,7 @@ header {
   margin: 0;
   /* rgbで#ffffのように色を設定、rgbaで透明度（背景)も設定 */
   background-color: rgba(34, 49, 52, 0.9);
+  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.3);
   /* fixedで要素の位置を固定 */
   position: fixed;
   top: 0;

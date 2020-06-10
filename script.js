@@ -18,7 +18,7 @@ $('.logo-on-off').each(function() {
 // ページ内リンクジャンプ
 jQuery(function(){
   var windowWidth = $(window).width();
-  var headerHight = 100; // ヘッダーの高さ
+  var headerHight = 70; // ヘッダーの高さ
   jQuery('a[href^=#]').click(function() { // <a href="#〇〇"> をクリックしたとき
     var speed = 1000; // スクロールのスピード
     var href= jQuery(this).attr("href");

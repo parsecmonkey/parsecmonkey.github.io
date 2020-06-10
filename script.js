@@ -28,3 +28,14 @@ jQuery(function(){
 　  return false;
   });
 });
+
+$(function() {
+  $('.slide').slick({
+    accessibility: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: false,
+    fade: true,
+    arrows: false,
+  });
+});

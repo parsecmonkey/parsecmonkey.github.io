@@ -69,12 +69,26 @@ header {
 .top-wrapper {
   height: 1300px;
   /* padding: 上 右 下 左; */
-  padding: 160px 0 100px 0;
+  padding: 110px 0 100px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
   color: black;
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
   text-align: center;
 }
+
+.slide-container {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  width: 35%;
+}
+.slide img {
+  margin: 0 auto;
+  width: 95%;
+}
+.slick-slide {
+  text-align: center;
+}
+
 .top-wrapper h1 {
   /* opacityで透明度設定(0.0:透明,1.0:不透明) */
   opacity: 1.0;
@@ -184,6 +198,11 @@ footer {
   .top-wrapper h1 {
     font-size: 30px;
   }
+
+  .slide-container {
+    width: 50%;
+  }
+
   .top-logo img {
     width: 220px;
     height: 220px;

@@ -85,7 +85,7 @@ header {
 .top-img img {
   width: 8%;
   position: absolute;       /* 位置指定 */
-  top: 75.5%;                  /* 位置指定 */
+  top: 77.2%;                  /* 位置指定 */
   left: 55%;
   z-index: 0;
   opacity: 1;
@@ -228,7 +228,7 @@ footer {
   }
   .top-img img {
     width: 25%;
-    top: 70.5%;                  /* 位置指定 */
+    top: 72.5%;                  /* 位置指定 */
     left: 63%;
   }
   .top-wrapper h1 {

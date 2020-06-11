@@ -83,12 +83,12 @@ header {
   text-align: center;
 }
 .top-img img {
-  width: 25%;
+  width: 8%;
   position: absolute;       /* 位置指定 */
-  top: 65%;                  /* 位置指定 */
-  left: 75%;
+  top: 75.5%;                  /* 位置指定 */
+  left: 55%;
   z-index: 0;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .slide-container {
@@ -156,20 +156,29 @@ header {
   margin-right: 5px;
 }
 
-.list_square li {
-  color: white;
-}
-.list_square a {
-  color: white;
-}
 footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
 footer {
   padding-top: 25px;
+  position: relative;
 }
-
+.foot-img img {
+  float: right;
+  width: 8%;
+  position: absolute;       /* 位置指定 */
+  bottom: 0%;                  /* 位置指定 */
+  right: 3%;
+  z-index: 0;
+  opacity: 0.4;
+}
+.list_square li {
+  color: white;
+}
+.list_square a {
+  color: white;
+}
 
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 @media screen and ( max-width:479px )
@@ -211,7 +220,9 @@ footer {
     padding: 10px 0 50px 0;
   }
   .top-img img {
-    top: 75%;
+    width: 25%;
+    top: 70.5%;                  /* 位置指定 */
+    left: 63%;
   }
   .top-wrapper h1 {
     font-size: 30px;
@@ -251,6 +262,9 @@ footer {
   }
   footer {
     padding-top: 13px;
+  }
+  .foot-img img {
+    width: 14%;
   }
 
 }

@@ -50,20 +50,23 @@ header {
 }
 .header-right {
   float: right;
-  width: 10%;
+  margin-right: 3%;
+}
+.right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.right {
+  float: right;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
   /* transitionでカーソルを乗せたとき、アニメーションをつけるように */
   transition: background-color 2.0s;
 }
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header-right a {
+.right a {
   /* line-heightで行の高さを設定（今回はheaderの高さに合わせ、文字が中央に来るようにした） */
   line-height: 65px;
-  padding: 0 25px;
   color: white;
+  padding: 0 25px;
   /* display: block;でぼっく自然体をクリックできるように */
   display: block;
 }

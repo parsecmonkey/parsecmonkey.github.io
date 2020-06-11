@@ -33,6 +33,7 @@ header {
   margin: 0 auto;
 }
 .header-left {
+  margin-left: 1%;
   /* floatでどちらに詰めるか設定 */
   float: left;
 }

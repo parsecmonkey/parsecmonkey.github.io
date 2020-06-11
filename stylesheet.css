@@ -76,7 +76,7 @@ header {
   width: 100%;
   /* padding: 上 右 下 左; */
   position: relative;
-  padding: 110px 0 150px 0;
+  padding: 90px 0 150px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
   color: black;
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
@@ -112,7 +112,8 @@ header {
   letter-spacing: 5px;
 }
 .top-txt {
-  margin-top: 115px
+  margin-top: 70px;
+  margin-bottom: 5%;
 }
 .container {
   width: 100%;

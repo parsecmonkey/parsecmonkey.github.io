@@ -72,13 +72,22 @@ header {
 }
 
 .top-wrapper {
-  height: 1300px;
+  width: 100%;
   /* padding: 上 右 下 左; */
-  padding: 110px 0 100px 0;
+  position: relative;
+  padding: 110px 0 150px 0;
   /* imageで画像挿入,coverで画面サイズに合わせ拡大縮小 */
   color: black;
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
   text-align: center;
+}
+.top-img img {
+  width: 25%;
+  position: absolute;       /* 位置指定 */
+  top: 65%;                  /* 位置指定 */
+  left: 75%;
+  z-index: 0;
+  opacity: 0.4;
 }
 
 .slide-container {
@@ -100,10 +109,6 @@ header {
   font-size: 45px;
   /* letter-spacingで文字間隔設定 */
   letter-spacing: 5px;
-}
-.top-logo img {
-  width: 340px;
-  height: 340px;
 }
 .top-txt {
   margin-top: 115px
@@ -204,6 +209,9 @@ footer {
     /* padding: 上 右 下 左; */
     padding: 10px 0 50px 0;
   }
+  .top-img img {
+    top: 75%;
+  }
   .top-wrapper h1 {
     font-size: 30px;
   }
@@ -212,10 +220,6 @@ footer {
     width: 50%;
   }
 
-  .top-logo img {
-    width: 220px;
-    height: 220px;
-  }
   .top-txt {
     margin-top: 0;
   }

@@ -82,14 +82,6 @@ header {
   /* text-alignでテキスト（margin: autoより狭い範囲)の位置を揃える */
   text-align: center;
 }
-.top-img img {
-  width: 8%;
-  position: absolute;       /* 位置指定 */
-  top: 77.2%;                  /* 位置指定 */
-  left: 55%;
-  z-index: 0;
-  opacity: 1;
-}
 
 .slide-container {
   margin: 0 auto;

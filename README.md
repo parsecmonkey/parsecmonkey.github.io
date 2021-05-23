@@ -1,2 +1,1 @@
-# ParsecMonkey ホームページ作成
-練習中
+# ParsecMonkey ホームページ

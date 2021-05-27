@@ -156,9 +156,14 @@ header {
   margin-right: 5px;
 }
 
+ul {
+  margin-block-end: 0;
+}
+  
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
 }
 footer {
   padding-top: 25px;

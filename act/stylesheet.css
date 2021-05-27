@@ -288,6 +288,7 @@ header {
 
 ul {
   margin-block-end: 0;
+  list-style-type: none;
 }
   
 footer p {

@@ -415,6 +415,9 @@ footer {
     margin-right: 3px;
   }
 
+  .act-wrapper {
+    margin-bottom: 50px;
+  }
   .act-container {
     height: 100%;
     margin-bottom: 5px;

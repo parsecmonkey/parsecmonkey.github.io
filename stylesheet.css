@@ -164,6 +164,7 @@ ul {
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  margin-top: 0;
   text-align: center;
 }
 footer {
@@ -265,6 +266,10 @@ footer {
   }
   .fab {
     margin-right: 3px;
+  }
+  
+  ul {
+    font-size: 12px;
   }
 
   footer p {

@@ -450,6 +450,7 @@ footer {
 
   ul {
     font-size: 12px;
+    padding-inline-start: 30px;
   }
 
   footer p {

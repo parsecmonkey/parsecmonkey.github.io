@@ -286,9 +286,14 @@ header {
   border-bottom: dashed 3px rgba(34, 49, 52, 0.9);
 }
 
+ul {
+  margin-block-end: 0;
+}
+  
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  text-align: center;
 }
 footer {
   padding-top: 25px;

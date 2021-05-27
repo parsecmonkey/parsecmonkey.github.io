@@ -305,7 +305,7 @@ footer {
   float: right;
   width: 8%;
   position: absolute;       /* 位置指定 */
-  bottom: 0%;                  /* 位置指定 */
+  bottom: 12px;                  /* 位置指定 */
   right: 3%;
   z-index: 0;
   opacity: 0.4;

@@ -187,9 +187,12 @@ footer {
   opacity: 0.4;
 }
 .list_square li {
-  color: white;
+  color: #b3aeb5;
 }
 .list_square a {
+  color: #b3aeb5;
+}
+.list_square a:hover {
   color: white;
 }
 

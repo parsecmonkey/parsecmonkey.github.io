@@ -206,7 +206,7 @@ header {
   background-color: #55acee;
 }
 .fab {
-  margin-right: 5px;
+  margin-right: 0;
 }
 
 /*act wrapper*/
@@ -301,14 +301,48 @@ footer {
   padding-top: 25px;
   position: relative;
 }
-.foot-img img {
+.foot-flex {
+  display: flex;
+}
+.foot-left {
+  flex: 1;
+  width: 20%;
+}
+.foot-center {
+  flex: 2;
+  width: 60%;
+  margin: auto;
+}
+.foot-center-img {
+  display: flex;
+  justify-content: center;
+}
+.foot-center-img a {
+  margin: 0 8px;
+}
+.foot-center-img a:hover {
+  opacity: 0.6;
+}
+
+.fa-github {
+  color: black;
+  vertical-align: top;
+}
+.size {
+  font-size: 2em;
+}
+
+.foot-right {
+  flex: 1;
+  width: 20%;
+  margin: auto;
+}
+.foot-right img {
   float: right;
-  width: 8%;
-  position: absolute;       /* 位置指定 */
-  bottom: 12px;                  /* 位置指定 */
-  right: 3%;
-  z-index: 0;
+  width: 25%;
+  margin-right: 1rem;
   opacity: 0.4;
+  vertical-align: top;
 }
 .list_square li {
   color: #b3aeb5;
@@ -456,14 +490,17 @@ footer {
     padding-inline-start: 30px;
   }
 
+  .size {
+    font-size: 1.7em;
+  }
   footer p {
     font-size: 9px;
   }
   footer {
     padding-top: 13px;
   }
-  .foot-img img {
-    width: 14%;
+  .foot-right img {
+    width: 47%;
   }
 
 }
